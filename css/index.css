@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("../img/bg-2.png");
+}
+
+
+
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+
+
+.home{
+    max-width: 1140px;
+    width: 100%;
+    
+}
+
+.home header  li{
+    padding: 10px;
+}
+
+.home header img{
+    float: left;
+}
+
+.home header ul.lista1{
+    float: left;
+    padding: 10px;
+    
+}
+
+.home header ul.lista2{
+    float: left;
+    padding: 10px;
+    padding-left: 350px;        
+    
+}
+
+/*
+.home header ul.listacelu{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+*/
+/*
+.home header ul.lista2{
+    float: left;
+    padding: 10;
+}
+*/
+.home main{
+    float: left;
+    width: 800px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.home aside{
+    width: 320px;
+    margin-top: 10px;
+    overflow: hidden;
+    
+}
+
+.home main section img{
+    width: 100%;
+}
+
+.home main section{
+    width: 380px;
+    margin: 10px;
+    float: left;
+
+}
+
+.home main section h2{
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+
+.home main section p{
+    margin-bottom: 15px;
+}
+
+.home main section button{
+    background-color: orangered;
+    border: orangered;
+    
+}
+
+.home main section button a{
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.home aside section h2{
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid skyblue;
+    margin-bottom: 10px;
+}
+
+.home aside section article{
+    background-color: white;
+    border: 1px solid skyblue;
+    padding: 10px;
+}
+
+.home aside section article a{
+    color: black;
+    text-transform: none;
+    width: 140px;
+    float: right;
+    padding: 5px;
+    margin-right: 35px;
+}
+
+
+.home aside section div#publicidad{
+    background-color: white;
+    border: 1px solid skyblue;
+    margin-top: 10px;
+}
+
+.home aside section h2#titulo{
+    margin-top: 10px;
+}
+
+.home aside section div#publicidad img{
+    width: 100%;
+    padding: 5%;
+}
+
+/*
+
+@media(min-width:426px){
+    .home{
+        margin-top: 100px;
+    }
+    .home main section{
+        max-width: 46%;
+        margin: 0;
+    }
+
+    .home aside{
+        width: 50%;
+    }
+}
+
+@media(min-width:769px){
+    .home main{
+        width: 65%;
+
+    }
+
+    .home aside{
+        width: 320px;
+    }
+
+    .home main section{
+        width: 50%;
+    }
+
+    .home aside{
+        width: 320px;
+    }
+}
+
+

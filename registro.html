@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="">
+        <nav>
+            <ul class="lista1">
+                <li><a href="">smartphones</a></li>
+                <li><a href="">talleres</a></li>
+                <li><a href="">computadoras</a></li>
+            </ul>
+
+            <ul class="lista2">
+                <li><a href="">login</a></li>
+                <li><a href="">registro</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <h1>registrarse</h1>
+
+        <form action="" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <p>Obligatorio</p>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <p>Obligatorio</p>
+
+            <label for="">Contraseña</label>
+            <input type="text" name="contraseña" id="contraseña">
+            <p>Obligatorio</p>
+
+            <h2>Pais de nacimiento</h2>
+
+            <select name="pais">
+                <option value="1">Argentina</option>
+                <option value="2">Chile</option>
+                <option value="3">Peru</option>
+                <option value="4">Colombia</option>
+            </select>
+            <p>Obligatorio</p>
+            <div class="box-1">
+                <h2>Genero</h2>           
+                <label> <input type="radio" name="genero" value="mujer"> Mujer</label>
+                <label> <input type="radio" name="genero" value="hombre"> Hombre</label>
+                <label> <input type="radio" name="genero" value="otro"> Otro</label>
+            </div>
+            <div class="box-1">
+                <h2>Hobbies</h2>            
+                <label> <input type="radio" name="hobbie" value="guitarra"> Guitarra</label>
+                <label> <input type="radio" name="hobbie" value="futbol"> Futbol</label>
+                <label> <input type="radio" name="hobbie" value="tenis"> Tenis</label>
+                <label> <input type="radio" name="hobbie" value="programacion"> Programacion</label>
+            </div>
+            <h2>Dejanos tus comentarios</h2>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+
+            <label id="check"> <input type="checkbox"> Acepto terminos y condiciones</label>
+
+            <input type="submit" value="Registrarme">
+            
+            <button><a href="#">Cancelar</a></button>
+
+        </form>
+    </main>
+</body>
+</html>
